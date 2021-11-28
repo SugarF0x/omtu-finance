@@ -5,6 +5,9 @@ import Rn from '@/components/calc/Rn.vue'
 import Fn from '@/components/calc/Fn.vue'
 import PV from '@/components/calc/PV.vue'
 
+import FVpst from '@/components/calc/FVpst.vue'
+import PVpst from '@/components/calc/PVpst.vue'
+
 import FM4 from '@/components/calc/FM4.vue'
 import FM3 from '@/components/calc/FM3.vue'
 
@@ -15,6 +18,9 @@ const items: Vue.Component[] = [
   Rn,
   Fn,
   PV,
+
+  FVpst,
+  PVpst,
 
   FM4,
   FM3,
