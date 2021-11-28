@@ -1,13 +1,20 @@
 <script lang="ts">
 import { defineComponent } from "@nuxtjs/composition-api"
+
 import Rn from '@/components/calc/Rn.vue'
 import Fn from '@/components/calc/Fn.vue'
 import PV from '@/components/calc/PV.vue'
 
+import FM4 from '~/components/calc/FM4.vue'
+import FM3 from '~/components/calc/FM3.vue'
+
 const items: Vue.Component[] = [
   Rn,
   Fn,
-  PV
+  PV,
+
+  FM4,
+  FM3,
 ]
 
 export default defineComponent({
