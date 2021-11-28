@@ -14,6 +14,8 @@ import FM3 from '@/components/calc/FM3.vue'
 import FVapst from '@/components/calc/FVapst.vue'
 import PVapst from '@/components/calc/PVapst.vue'
 
+import PMT_FVA from "@/components/calc/PMT_FVA.vue"
+
 const items: Vue.Component[] = [
   Rn,
   Fn,
@@ -27,6 +29,8 @@ const items: Vue.Component[] = [
 
   FVapst,
   PVapst,
+
+  PMT_FVA
 ]
 
 export default defineComponent({
