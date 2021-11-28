@@ -11,7 +11,8 @@ export default defineComponent({
     fn: {
       type: Function as PropType<(P: number, r: number, n: number) => number>,
       required: true
-    }
+    },
+    PLabel: String
   },
   setup(props) {
     const { fn } = toRefs(props)
@@ -49,7 +50,7 @@ export default defineComponent({
 
 <template>
   <div>
-    <v-text-field v-model="P" :rules="rules" placeholder="P" label="Первоначальный вклад" />
+    <v-text-field v-model="P" :rules="rules" placeholder="P" :label=" PLabel || 'Первоначальный вклад'" />
     <v-text-field v-model="r" :rules="rules" placeholder="r" label="Процентная ставка" />
     <v-text-field v-model="n" :rules="rules" placeholder="n" label="Число периодов" />
 

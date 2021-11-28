@@ -18,7 +18,7 @@ export default defineComponent({
     <p> {{ example }} </p>
 
     <strong class="d-block">Ответ:</strong>
-    <p> 520 тыс. руб </p>
+    <p> {{ solution }} </p>
   </div>
 </template>
 

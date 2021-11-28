@@ -2,10 +2,12 @@
 import { defineComponent } from "@nuxtjs/composition-api"
 import Rn from '@/components/calc/Rn.vue'
 import Fn from '@/components/calc/Fn.vue'
+import PV from '@/components/calc/PV.vue'
 
 const items: Vue.Component[] = [
   Rn,
-  Fn
+  Fn,
+  PV
 ]
 
 export default defineComponent({
