@@ -1,15 +1,15 @@
 <script lang="ts">
 import { defineComponent } from "@nuxtjs/composition-api"
 import Rn from '@/components/calc/Rn.vue'
+import Fn from '@/components/calc/Fn.vue'
 
 const items: Vue.Component[] = [
-  Rn
+  Rn,
+  Fn
 ]
 
 export default defineComponent({
   setup() {
-    console.log(items)
-
     return {
       items
     }
